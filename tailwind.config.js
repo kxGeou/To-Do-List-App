@@ -8,12 +8,14 @@ export default {
   theme: {
     extend: {
       colors :{
-        inputColor : "var(--inputTask)",
+        mainBackground : "var(--background)",
         addBtn : "var(--addBtn)",
-        deleteBtn : "var(--deleteBtn)",
-        upDownBtn : "var(--upDownBtn)",
-        clock : "var(--clock)",
-        mainBackground : "var(--background)"
+        circle : "var(--circles)",
+        taskBgc : "var(--taskBgc)",
+        inputPlaceholder : "var(--inputPlaceholder)",
+        taskArrow : "var(--taskArrow)",
+        clockText : "var(--clockTextColor)",
+        inputBackground : "var(--inputBackground)" 
       }
     },
   },

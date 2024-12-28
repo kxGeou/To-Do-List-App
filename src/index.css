@@ -4,23 +4,57 @@
 
 @layer base {
     :root {
-        --inputTask : #C8ADFF;
-        --addBtn : #C8ADFF;
-        --deleteBtn :#FD5F5F;
-        --upDownBtn: white;
-        --clock: #252525;
-        --background : white;
+        --circles : #995CE4;
+        --addBtn : #995CE4;
+        --background : #FFFFFF;
+        --taskBgc: #B579FF;
+        --inputBackground : #D5C6E8;
+        --inputPlaceholder: #B388E7;
+        --taskArrow: #D9D9D9;
+        --clockTextColor: #5b187a;
     }
 
     * {
         @apply transition-colors duration-500 ease-in-out;
     }
 }
-
 .theme-dark {
-    --inputTask : rgb(66, 64, 64);
-    --addBtn : red;
-    --deleteBtn : pink;
-    --upDownBtn : green; 
-    --clock : violet; 
-}   
+    --circles : #4A2A71;
+    --addBtn : #5A338A;
+    --background : #2A1840;
+    --taskBgc: #6C459C;
+    --inputBackground : #4A2A71;
+    --inputPlaceholder: #B388E7;
+    --taskArrow: #B388E7;
+    --clockTextColor: #7c58a5;
+}
+.theme-green {
+    --circles : #2A716D;
+    --addBtn : #318682;
+    --background : #18402F;
+    --taskBgc: #30807C;
+    --inputBackground : #2A716D;
+    --inputPlaceholder: #18402F;
+    --taskArrow: #58DBD5;
+    --clockTextColor: #40bb88;
+}
+.theme-gray {
+    --circles : #363434;
+    --addBtn : #4C4949;
+    --background : #191919;
+    --taskBgc: #4C4949;
+    --inputBackground : #363434;
+    --inputPlaceholder: #B7B7B7;
+    --taskArrow: #B4B1B1;
+    --clockTextColor: #717070;
+}
+.theme-blue {
+    --circles : #1E193B;
+    --addBtn : #31295D;
+    --background : #100B2E;
+    --taskBgc: #39306F;
+    --inputBackground : #1E193B;
+    --inputPlaceholder: #756BB0;
+    --taskArrow: #7968E0;
+    --clockTextColor: #4e428e;
+}

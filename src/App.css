@@ -8,24 +8,13 @@
 }
 
 
-.circle {
-    position: relative;
+.circles {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 105%;
     height: 35rem;
-    background-color: red;
     border-radius: 0% 0% 50% 50%;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
 }
-
-.arrow-down {
-    width: 0; 
-    height: 0; 
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    
-    border-top: 20px solid #f00;
-  }

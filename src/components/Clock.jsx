@@ -18,9 +18,9 @@ const Clock = () => {
   const seconds = time.getSeconds().toString().padStart(2, '0'); 
 
   return (
-    <div className='flex w-[100%] justify-between mb-5'>
-      <h1 className='text-2xl font-semibold text-clock'> {day} {months[month]}</h1>
-      <p className='text-2xl font-semibold text-clock'>
+    <div className='flex w-[100%] justify-between mb-8'>
+      <h1 className='text-2xl font-semibold text-clockText'> {day} {months[month]}</h1>
+      <p className='text-2xl font-semibold text-clockText'>
         {hours}:{minutes}:{seconds}
       </p>
     </div>
