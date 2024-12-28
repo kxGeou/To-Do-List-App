@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --inputTask : #C8ADFF;
+        --addBtn : #C8ADFF;
+        --deleteBtn :#FD5F5F;
+        --upDownBtn: white;
+        --clock: #252525;
+        --background : white;
+    }
+
+    * {
+        @apply transition-colors duration-500 ease-in-out;
+    }
+}
+
+.theme-dark {
+    --inputTask : rgb(66, 64, 64);
+    --addBtn : red;
+    --deleteBtn : pink;
+    --upDownBtn : green; 
+    --clock : violet; 
+}   

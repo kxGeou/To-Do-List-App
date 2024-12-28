@@ -4,9 +4,18 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
-  },
   plugins: [],
+  theme: {
+    extend: {
+      colors :{
+        inputColor : "var(--inputTask)",
+        addBtn : "var(--addBtn)",
+        deleteBtn : "var(--deleteBtn)",
+        upDownBtn : "var(--upDownBtn)",
+        clock : "var(--clock)",
+        mainBackground : "var(--background)"
+      }
+    },
+  },
 }
 

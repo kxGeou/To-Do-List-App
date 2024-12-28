@@ -19,8 +19,8 @@ const Clock = () => {
 
   return (
     <div className='flex w-[100%] justify-between mb-5'>
-      <h1 className='text-2xl font-semibold'> {day} {months[month]}</h1>
-      <p className='text-2xl font-semibold'>
+      <h1 className='text-2xl font-semibold text-clock'> {day} {months[month]}</h1>
+      <p className='text-2xl font-semibold text-clock'>
         {hours}:{minutes}:{seconds}
       </p>
     </div>
