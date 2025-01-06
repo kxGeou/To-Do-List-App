@@ -8,6 +8,11 @@ function ToDoList() {
   const themes = ["light", "dark", "green", "gray", "blue"];
   const [theme, setTheme] = useState(themes[0]);
 
+
+  console.log("Hello, Scriptly")
+
+
+
   function handleInputChange(event) {
     setNewTask(event.target.value);
   }
@@ -116,7 +121,6 @@ function ToDoList() {
           ))}
         </ol>
       </div>
-      {/* <div className="footer w-full h-20 bg-circle absolute bottom-0"></div> */}
     </div>
   );
 }
